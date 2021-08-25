@@ -13,7 +13,7 @@ description: |
  command-line tool. 
 
 grade: devel
-confinement: devmode
+confinement: strict
 compression: lzo
 
 parts:
@@ -24,4 +24,6 @@ parts:
 apps:
   desync:
     command: bin/desync
+    plugs:
+      - home
 
