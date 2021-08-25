@@ -16,6 +16,10 @@ grade: devel
 confinement: strict
 compression: lzo
 
+architectures:
+  - build-on: amd64
+  - build-on: arm64
+
 parts:
   desync:
     plugin: go
