@@ -31,4 +31,6 @@ apps:
     command: bin/desync
     plugs:
       - home
+      - network
+      - network-bind
 
