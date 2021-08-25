@@ -23,7 +23,8 @@ architectures:
 parts:
   desync:
     plugin: go
-    source: .
+    source: https://github.com/folbricht/desync
+    source-type: git
 
 apps:
   desync:
