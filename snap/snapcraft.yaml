@@ -12,8 +12,8 @@ description: |
  features, available for integration into any 3rd-party product as well as a
  command-line tool. 
 
-grade: devel
-confinement: strict
+grade: stable
+confinement: classic
 compression: lzo
 
 architectures:
@@ -29,8 +29,3 @@ parts:
 apps:
   desync:
     command: bin/desync
-    plugs:
-      - home
-      - network
-      - network-bind
-
